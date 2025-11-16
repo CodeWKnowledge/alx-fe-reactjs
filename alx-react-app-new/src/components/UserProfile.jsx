@@ -28,12 +28,13 @@ const UserProfile = (props) => {
         }}
       >
         <h2>{props.name}</h2>
-        <p>Age: {props.age}</p>
+        <p>Age: <span style={{ fontWeight: 'bold' }}>{props.age}</span></p>
         <p>Bio: {props.bio}</p>
       </div>
     </div>
   );
 
+  
 };
 
 export default UserProfile;
