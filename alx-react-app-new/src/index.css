@@ -3,3 +3,47 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.counter {
+  background-color: rgb(0, 136, 255);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.counter h1 {
+  font-size: 70px;
+}
+.counter p {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.but {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: #0218a9;
+  color: #ffffff;
+}

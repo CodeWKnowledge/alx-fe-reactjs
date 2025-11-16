@@ -11,7 +11,7 @@ const UserProfile = (props) => {
     >
       <div
         style={{
-          backgroundColor: "#100a85",
+          backgroundColor: "rgb(0, 136, 255)",
           display: "flex",
           flexDirection: "column",
           gap: "10px",
