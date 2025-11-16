@@ -22,12 +22,12 @@ function Counter() {
                 <h1>{count}</h1>
                 <p ref={myEffect}></p>
                 <div className="but">
-                <button onClick={Increase}>Increase</button>
+                <button onClick={Increase}>Increment</button>
 
                 <button onClick={Reset}>Reset</button>
 
 
-                <button onClick={Decrease}>Decrease</button>
+                <button onClick={Decrease}>Decrement</button>
 
                 </div>
             </div>
