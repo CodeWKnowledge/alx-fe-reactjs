@@ -1,10 +1,11 @@
-function Footer() {
+import React from 'react'
+
+const Footer = () => {
   return (
-    <footer style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", textAlign:"center", gap:"10px", marginTop:"20px"
-    }}>
-      <p>© 2023 City Lovers</p>
+    <footer style={{ backgroundColor: '#222', color: '#fff', textAlign: 'center', padding: '10px', marginTop: '20px' }}>
+      <p style={{ margin: 0 }}>© 2023 City Lovers</p>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

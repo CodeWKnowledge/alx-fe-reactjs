@@ -1,3 +1,5 @@
+import React from 'react'
+
 const UserProfile = (props) => {
   return (
     <div>
@@ -5,7 +7,7 @@ const UserProfile = (props) => {
       <p>Age: {props.age}</p>
       <p>Bio: {props.bio}</p>
     </div>
-  );
-};
+  )
+}
 
-export default UserProfile;
+export default UserProfile

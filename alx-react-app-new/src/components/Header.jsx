@@ -1,9 +1,11 @@
-function Header() {
+import React from 'react'
+
+const Header = () => {
   return (
-    <header style={{backgroundColor:"rgba(0, 157, 255, 1)", padding:"10px", color:"#fff", textAlign:"center"}}>
+    <header style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center', padding: '12px' }}>
       <h1>My Favorite Cities</h1>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header

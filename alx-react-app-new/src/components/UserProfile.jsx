@@ -1,40 +1,13 @@
+import React from 'react'
+
 const UserProfile = (props) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "300px",
-      }}
-    >
-      <div
-        style={{
-          backgroundColor: "rgb(0, 136, 255)",
-          display: "flex",
-          flexDirection: "column",
-          gap: "10px",
-          justifyContent: "center",
-          alignItems: "center",
-          textAlign: "center",
-          padding: "30px",
-          borderRadius: "25px",
-          color: "blue",
-          width: "50%",
-          boxShadow:
-            "rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px, rgba(0, 0, 0, 0.56) 0px 22px 70px 4px",
-            border: '1px solid gray',  margin: '10px'
-        }}
-      >
-        <h2>{props.name}</h2>
-        <p>Age: <span style={{ fontWeight: 'bold' }}>{props.age}</span></p>
-        <p>Bio: {props.bio}</p>
-      </div>
+    <div style={{ border: '1px solid gray', padding: '10px', margin: '10px 0', borderRadius: '6px' }}>
+      <h2 style={{ color: 'blue', margin: '0 0 8px 0' }}>{props.name}</h2>
+      <p style={{ margin: '4px 0' }}>Age: <span style={{ fontWeight: 'bold' }}>{props.age}</span></p>
+      <p style={{ margin: '4px 0' }}>Bio: {props.bio}</p>
     </div>
-  );
+  )
+}
 
-  
-};
-
-export default UserProfile;
+export default UserProfile

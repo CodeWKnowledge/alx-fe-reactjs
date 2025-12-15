@@ -1,9 +1,11 @@
-function MainContent() {
+import React from 'react'
+
+const MainContent = () => {
   return (
-    <main style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", textAlign:"center", gap:"10px"}}>
-      <p>I love to visit New York, Paris, and Tokyo.</p>
+    <main style={{ backgroundColor: '#f5f5f5', padding: '16px', margin: '12px 0' }}>
+      <p style={{ margin: 0 }}>I love to visit New York, Paris, and Tokyo.</p>
     </main>
-  );
+  )
 }
 
-export default MainContent;
+export default MainContent
