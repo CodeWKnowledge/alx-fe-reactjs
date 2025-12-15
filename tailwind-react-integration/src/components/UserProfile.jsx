@@ -2,13 +2,16 @@ function UserProfile() {
   return (
     <div
       className="
-      bg-gray-100
-      sm:p-4 md:p-8
-      max-w-xs md:max-w-sm
-      mx-auto my-16
-      rounded-lg shadow-lg
-      text-center
-    "
+        bg-gray-100
+        sm:p-4 md:p-8
+        max-w-xs md:max-w-sm
+        mx-auto my-16
+        rounded-lg
+        shadow-lg
+        hover:shadow-xl
+        transition-shadow duration-300 ease-in-out
+        text-center
+      "
     >
       <img
         src="https://via.placeholder.com/150"
@@ -18,27 +21,28 @@ function UserProfile() {
           md:w-36 md:h-36
           rounded-full
           mx-auto
+          transition-transform duration-300 ease-in-out
+          hover:scale-110
         "
       />
 
       <h1
         className="
-        text-lg md:text-xl
-        text-blue-800
-        my-4
-      "
+          sm:text-lg md:text-xl
+          text-blue-800
+          hover:text-blue-500
+          transition-colors duration-300 ease-in-out
+          my-4
+        "
       >
         John Doe
       </h1>
 
-      <p
-        className="
+      <p className="
         text-gray-600
-        text-sm md:text-base
-      "
-      >
-        Developer at Example Co. Loves to write code and explore new
-        technologies.
+        sm:text-sm md:text-base
+      ">
+        Developer at Example Co. Loves to write code and explore new technologies.
       </p>
     </div>
   );
